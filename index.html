@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="./styles.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
     <script src="script.js"></script>
     <title> SOPHIA CARAZO &#128539; </title>
 </head>
-<div class = "top">
-    <h1> Welcome! </h1>
-</div>
+<body> 
+
+    <div id= "welcome">
+        <h1 id="top"> Welcome! </h1>
+        <h2 id ="desc"> Mama a quiz in front of you</h2>
+        <div id="homemiddle">
+            <img class ="picturr" src="IMG_7233.jpg" alt="Yasss" width="500" height="300">
+        <br>
+            <button onclick="next('welcome', 'first_q')" id="begin" class="btn">IFYKYK</button>
+        </div>
+    </div>
+
+    <div id="first_q">
+        <h2 id ="firstref" class="reference"> What I do</h2>
+        <div class = "middles">
+        <img class ="picturr" src="whatido.jpg" alt="What I do Girl" width="500" height="300">
+            <div class="options">
+                <button onclick="next('first_q', 'second_q');scorecount(5)" class="btn"> When you didn't do</button>
+                <button onclick="next('first_q', 'second_q');scorecount(5)" class="btn"> When you went to ellie mason house </button>
+                <button onclick="next('first_q', 'second_q');scorecount(30)" class="btn"> When you do nails </button>
+                <button onclick="next('first_q', 'second_q');scorecount(10)" class="btn"> When you dont know what they are talking about</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="second_q">
+        <h2 id ="secondref" class="reference"> Mama girl behind you </h2>
+        <div class = "middles">
+        <img class ="picturr" src="mama-a-girl-behind-you-a-girl-behind-you.gif" alt="Girl Behind You" width="500" height="300">
+            <div class="options">
+                <button onclick="next('second_q', 'third_q');scorecount(10)" class="btn"> When your mom has a dancing bitmoji behind her </button>
+                <button onclick="next('second_q', 'third_q');scorecount(5)" class="btn"> To be mischevious and trick your friends </button>
+                <button onclick="next('second_q', 'third_q');scorecount(30)" class="btn"> When a girl is behind you but a woman is in front of you</button>
+                <button onclick="next('second_q', 'third_q');scorecount(20)" class="btn"> When the past is behind you but the future is ahead </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="third_q">
+        <h2 id ="thirdref" class="reference"> Boots</h2>
+        <div class = "middles">
+        <img class ="picturr" src="treyreloaded-gag.gif" alt="gag or chopped" width="500" height="300">
+            <div class="options">
+                <button onclick="next('third_q', 'fourth_q');scorecount(15)" class="btn"> 8 </button>
+                <button onclick="next('third_q', 'fourth_q');scorecount(-5)" class="btn"> Change into boots </button>
+                <button onclick="next('third_q', 'fourth_q');scorecount(-19)" class="btn"> Describes the fall season </button>
+                <button onclick="next('third_q', 'fourth_q');scorecount(-10)" class="btn"> When your cooking is really bad </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="fourth_q">
+        <h2 id ="fourthref" class="reference"> Meow Meow Meow Meow</h2>
+        <div class = "middles">
+        <img class ="picturr" src="8EBA0C20-998D-4D58-A969-5E102EECA38C.jpg" alt="Cats" width="500" height="300">
+            <div class="options">
+                <button onclick="next('fourth_q', 'fifth_q');scorecount(5)" class="btn"> When you are a cat</button>
+                <button onclick="next('fourth_q', 'fifth_q');scorecount(5)" class="btn"> When you see your cat</button>
+                <button onclick="next('fourth_q', 'fifth_q');scorecount(10)" class="btn"> When you are billie eilish as a cat</button>
+                <button onclick="next('fourth_q', 'fifth_q');scorecount(20)" class="btn"> Excuse to add cat pictures </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="fifth_q">
+        <h2 id ="fifthref" class="reference"> Clairo Shade</h2>
+        <div class = "middles">
+        <img class ="picturr" src="GVRm-fpXIAA4UoN.jpg" alt="Cake" width="500" height="300">
+            <div class="options">
+                <button onclick="next('fifth_q', 'sixth_q');scorecount(30)" class="btn"> Taylor Swift</button>
+                <button onclick="next('fifth_q', 'sixth_q');scorecount(20)" class="btn"> A natural disaster</button>
+                <button onclick="next('fifth_q', 'sixth_q');scorecount(15)" class="btn"> Getting icecream</button>
+                <button onclick="next('fifth_q', 'sixth_q');scorecount(20)" class="btn"> Birthday Parties</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sixth_q">
+        <h2 id ="sixthref" class="reference"> Poochina vs. Punati </h2>
+        <div class = "middles">
+        <img class ="picturr" src="IMG_7235.PNG" alt="Citizen Test" width="500" height="300">
+            <div class="options">
+                <button onclick="scorecount(10); next('sixth_q', 'ending')" class="btn"> Countries at war </button>
+                <button onclick="scorecount(20); next('sixth_q', 'ending')" class="btn"> Lifestyle and nation and place</button>
+                <button onclick="scorecount(-30); next('sixth_q', 'ending')" class="btn"> Tubi show </button>
+                <button onclick="scorecount(-100); next('sixth_q', 'ending')" class="btn"> Imagination </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="ending">
+        <div class = "middles"> 
+            <h2> Hi this is the end </h2>
+            <h3> Yuo</h3>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer id="foot"> SOPHIA CARAZO </footer>
+    
+
+</body>
 </html>
