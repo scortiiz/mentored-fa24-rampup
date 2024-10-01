@@ -26,7 +26,16 @@ body {
 #sixth_q {
     display:none;
 }
-#ending {
+#ending1 {
+    display:none;
+}
+#ending2 {
+    display:none;
+}
+#ending3 {
+    display:none;
+}
+#ending4 {
     display:none;
 }
 
@@ -63,6 +72,7 @@ body {
   display: inline-block;
   font-size: 13px;
   font-weight: 400;
+  font-family:'Arial Narrow';
   line-height: 1.15385;
   margin: 0;
   outline: none;
